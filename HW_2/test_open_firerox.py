@@ -24,3 +24,4 @@ def test_payment_methods_section(driver):
 
     payment_section = driver.find_element(By.CSS_SELECTOR, "#rec1921734713 > div > div > div.t396__filter")
     payment_section.screenshot("./payment_methods_section.png")
+
